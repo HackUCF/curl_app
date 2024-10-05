@@ -1,0 +1,54 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>inatrnational fhorspe r loeague</title>
+    <style>
+body {
+    display:flex;
+    min-height: 100vh;
+    background: black;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body * {
+    box-sizing: inherit;
+}
+main {
+    margin: auto;
+    border: 1px solid black;
+    background: white;
+    padding: 40px;
+}
+
+h2 {
+    margin-top: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form div input {
+    width: 100%;
+    
+}
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Crafty CURLer</h2>
+        <p>Enter an IP address, and this server will attempt to send it an HTTP request with curl.
+        </p>
+        <form action="/curl" method="POST">
+            <div>
+
+                IP Address: <input name="ip" type="text" />
+            </div>
+            <input type="submit" value="Curl" />
+        </form>
+    </main>
+</body>
+</html>```
